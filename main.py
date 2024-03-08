@@ -42,13 +42,13 @@ def threaded_dani(message: str):
                      text=f'Downloading {filename}{"|||size:%.2fMB"}.' % length)
     file = open(filename, 'wb')
     t0 = time.time()
-    for chunk in result.iter_content(chunk_size=5 * 1024 * 1024):
+    for chunk in result.iter_content(chunk_size=100 * 1024 * 1024):
         file.write(chunk)
-        length -= 5
+        length -= 100
         t1 = time.time()
         t = int(t1 - t0)
         if t != 0:
-            speed = 5 / t
+            speed = 100 / t
         else:
             speed = 1
         bot.send_message(
