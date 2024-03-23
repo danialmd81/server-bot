@@ -23,7 +23,11 @@ event = threading.Event()
 
 
 def cloud(a: str, b: BytesIO):
-    nc.files.upload_stream(a, b)
+    try:
+        nc.files.upload_stream(a, b)
+    except nc_py_api._exceptions.NextcloudException as err:
+        print(err)
+        return
     event.clear()
 
 

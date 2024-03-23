@@ -1,1 +1,20 @@
 .vscode/settings.json
+.vscode/extensions.json
+__pycache__/json.cpython-311.pyc
+__pycache__/my_sql.cpython-312.pyc
+example/bot.py
+example/os.py
+example/test.py
+test/.env
+test/1.py
+test/Dani.py
+test/main.py
+test/my_sql.py
+test/my_sql.sqlite3
+test/__pycache__/my_sql.cpython-312.pyc
+test/New folder/.env
+test/New folder/main.py
+u/.env
+u/main.py
+u/UpDownV1.py
+u/__pycache__/UpDownV1.cpython-312.pyc
