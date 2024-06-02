@@ -55,18 +55,13 @@ def load(key, cache_file="cache.sqlite3"):
         print("Error during loading data:", ex)
 
 
-# my_sql["URL"] = "https://iutbox.iut.ac.ir/"
-# my_sql["BOT_TOKEN"] = "6545759864:AAHkSXK1JhP8PsUFXr0OMFNRZI77o2TWOOM"
+# my_sql["URL"] = "https://iutbox.iut.ac.ir/
 # user1 = Users()
 # user1.username = "Danialmdh81"
-# user1.auth_user = "40130023"
-# user1.auth_pass = "JWyMQ-8eEAt-sbRmX-XE7ET-z5bY4"
 
 
 # user2 = Users()
 # user2.username = "Lo0111011001100101"
-# user2.auth_user = "40118983"
-# user2.auth_pass = "TEKXz-PdezK-zp2Yk-iwytH-FmnTq"
 
 # ///////////////////////////////////////////////////////////////////////////////
 
